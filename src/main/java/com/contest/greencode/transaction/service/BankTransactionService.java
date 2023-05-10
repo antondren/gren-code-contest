@@ -56,7 +56,7 @@ public class BankTransactionService {
     }
 
     /**
-     * Updates the debit count and balance of a given account.
+     * Updates the debit count and balance for given account.
      *
      * @param debitAccount the account to update.
      * @param amount the amount to debit from the account.

@@ -17,7 +17,7 @@ configurations {
 
 sonar {
 	properties {
-		property "sonar.projectKey", "antondren_green-code-contest"
+		property "sonar.projectKey", "antondren_gren-code-contest"
 		property "sonar.organization", "antondren"
 		property "sonar.host.url", "https://sonarcloud.io"
 	}

@@ -67,7 +67,7 @@ public class BankTransactionService {
     }
 
     /**
-     * Updates the credit count and balance of a given account.
+     * Updates the credit count and balance for given account.
      *
      * @param creditAccount the account to update.
      * @param amount the amount to credit to the account.

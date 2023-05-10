@@ -4,10 +4,12 @@ package com.contest.greencode.atm.service;
 import com.contest.greencode.atm.dto.AtmRequest;
 import com.contest.greencode.atm.dto.AtmResponse;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.Comparator;
 import java.util.List;
 
+@Service
 @NoArgsConstructor
 public class AtmService {
 

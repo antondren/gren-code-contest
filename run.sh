@@ -9,4 +9,4 @@ cd "$(dirname "$0")"
 # Build the project
 bash build.sh
 
-java -cp build/libs/*.jar com.contest.greencode.GreenCodeApplication
+java -jar build/libs/green-code-0.0.1.jar

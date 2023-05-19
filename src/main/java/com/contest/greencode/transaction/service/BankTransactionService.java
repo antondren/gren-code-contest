@@ -51,7 +51,7 @@ public class BankTransactionService {
      */
     private List<Account> getSortedAccounts() {
         List<Account> sortedAccounts = repository.getAllAccounts();
-        sortedAccounts.sort(Comparator.comparing(Account::getAccountNumber));
+        sortedAccounts.sort(Comparator.comparing(Account::getAccount));
         return sortedAccounts;
     }
 

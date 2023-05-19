@@ -21,7 +21,7 @@ class BankTransactionServiceTest {
         for (int i = 0; i < accountsForCheck.size(); i++) {
             Account reportAcc = report.get(i);
             Account checkAcc = accountsForCheck.get(i);
-            assertEquals(reportAcc.getAccountNumber(), checkAcc.getAccountNumber());
+            assertEquals(reportAcc.getAccount(), checkAcc.getAccount());
             assertEquals(reportAcc.getBalance(), checkAcc.getBalance());
             assertEquals(reportAcc.getCreditCount(), checkAcc.getCreditCount());
             assertEquals(reportAcc.getDebitCount(), checkAcc.getDebitCount());

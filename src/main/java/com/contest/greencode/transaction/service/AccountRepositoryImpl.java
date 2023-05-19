@@ -28,6 +28,6 @@ public class AccountRepositoryImpl implements AccountRepository {
 
     @Override
     public void saveAccountInformation(Account account) {
-        repository.put(account.getAccountNumber(), account);
+        repository.put(account.getAccount(), account);
     }
 }

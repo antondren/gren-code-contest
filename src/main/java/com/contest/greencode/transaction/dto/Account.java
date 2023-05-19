@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 public class Account {
-    private final String accountNumber;
+    private final String account;
     private int debitCount;
     private int creditCount;
     private BigDecimal balance;
